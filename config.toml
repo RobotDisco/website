@@ -2,3 +2,6 @@ baseURL = "https://robot-disco.net"
 languageCode = "en-ca"
 title = "Robot Disco: A subtle discolation of the norm."
 theme = "etch"
+
+[markup.goldmark.renderer]
+    unsafe = true
